@@ -27,37 +27,3 @@ tech_stack = {
     "AI": ["Machine Learning basics"],
     "Tools": ["APIs", "Git", "GitHub"]
 }
-
-Areas of Interest
-
-Client websites and web applications
-
-Automation scripts
-
-Data analysis projects
-
-AI-based tools
-
-API integrations
-
-Small SaaS-style ideas
-
-Goals
-
-Build a strong and consistent portfolio
-
-Work with more freelance clients
-
-Develop real-world AI and data projects
-
-Improve skills through continuous learning
-
-GitHub Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=nizal-ahmad&show_icons=true&theme=tokyonight" /> </p> <p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=nizal-ahmad&theme=tokyonight" /> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nizal-ahmad&layout=compact&theme=tokyonight" /> </p>
-Contact
-
-GitHub: https://github.com/nizal-ahmad
-
-LinkedIn: https://www.linkedin.com/in/nizal-ahmad/
-
-Email: nizalsheikh966@gmail.com
