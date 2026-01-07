@@ -8,24 +8,31 @@ on:
 
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
     permissions:
       contents: write
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     timeout-minutes: 5
 
     steps:
-      - name: generate snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg?palette=github-dark
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
+      - name: Create dist folder if not exists
+        run: |
+          New-Item -ItemType Directory -Force -Path dist
+        shell: pwsh
 
-      - name: push snake.svg to the output branch
+      - name: Generate snake.svg
+        run: |
+          $url = "https://gh-palette.snk.platane.io/svg-only?user=${{ github.repository_owner }}&palette=github-dark"
+          Invoke-WebRequest -Uri $url -OutFile "dist/snake.svg"
+        shell: pwsh
+
+      - name: Push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
