@@ -36,14 +36,16 @@
 
 ## About Me
 
-I’m a **Computer Science student** passionate about **Artificial Intelligence, Data Science, and Machine Learning**.  
-I enjoy turning complex problems into simple, working solutions through clean code and practical experimentation.
+I’m a **Computer Science student** learning my way through **Artificial Intelligence, Data Science, and Machine Learning**.  
+I focus on understanding concepts deeply and applying them through small, practical projects.
+
+Right now, I’m building consistency, strengthening my fundamentals, and learning in public.
 
 - Learning and building with **Python**
-- Exploring **Machine Learning & NLP**
-- Working on **data analysis** and AI mini-projects
-- Interested in **AI for social impact**
-- Constantly improving through hands-on practice
+- Exploring **Machine Learning & NLP** step by step
+- Working on **data analysis** and beginner-friendly AI projects
+- Interested in **AI for real-world and social impact**
+- Improving daily through hands-on practice
 
 <br clear="right"/>
 
